@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+$bs-font: 'Roboto', sans-serif, 'Roboto Mono';
+$bs-body-font-family: $bs-font;
+
+$blue-60: hsl(221, 100%, 63%);
+$orange-50: hsl(27, 98%, 54%);
+$yellow-50: hsl(45, 100%, 51%);
+$green-20: hsl(158, 100%, 28%);
+$teal-40: hsl(162, 73%, 46%);
+$cyan-50: hsl(190, 90%, 50%);
+
+$green-00: hsl(162, 100%, 26%);
+$green-10: hsl(162, 98%, 19%);
+$green-90: hsl(162, 100%, 35%);
+
+$red-00: hsl(355, 86%, 58%);
+$red-10: hsl(355, 66%, 29%);
+
+$gray-90: hsl(210, 17%, 98%);
+$gray-80: hsl(210, 14%, 89%);
+$gray-70: hsl(240, 9%, 89%);
+$gray-60: hsl(240, 7%, 78%);
+$gray-50: hsl(240, 6%, 58%);
+$gray-40: hsl(240, 6%, 51%);
+$gray-30: hsl(240, 6%, 21%);
+$gray-20: hsl(240, 6%, 13%);
+$gray-10: hsl(240, 5%, 7%);
+$white-00: hsl(0, 0%, 100%);
+$black-00: hsl(0, 0%, 0%);
+
+$primary: $blue-60;
+$secondary: $gray-90;
+$success: $green-10;
+$info: $cyan-50;
+$warning: $yellow-50;
+$danger: $red-00;
+$light: $gray-90;
+$dark: $gray-10;
+
+$body-bg: hsl(240, 6%, 13%);
+$body-color: hsl(0, 0%, 100%);
+
+$theme-colors: (
+  'primary': hsl(162, 100%, 26%),
+  'secondary': hsl(240, 9%, 89%),
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': hsl(240, 4%, 19%)
+);
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $bs-body-font-family !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  margin: 80px 160px 80px 160px;
+}
+
+@import 'bootstrap/scss/bootstrap.scss';

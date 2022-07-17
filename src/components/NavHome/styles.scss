@@ -1,0 +1,28 @@
+.nav__container {
+  height: 60px;
+
+  & .nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    // width: 1rem;
+    & a  {
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      &:hover {
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid rgb(0,179,126);
+      }
+      &.active {
+        color: rgb(0,179,126) !important;
+      }
+    }
+    & svg {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+  
+}

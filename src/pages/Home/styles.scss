@@ -1,0 +1,29 @@
+.timer__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 648px;
+
+  & img {
+    margin-right: 0.5rem;
+  }
+  & .timer__number {
+    background-color: #29292e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // width: 128px;
+    height: 198px;
+    font-family: 'Roboto Mono';
+    font-size: 160px;
+    font-weight: 700;
+    border-radius: 8px;
+  }
+  & .timer__division {
+    // width: 104px;
+    color: #00875f;
+    background-color: transparent;
+  }
+}

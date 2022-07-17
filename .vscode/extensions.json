@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "anbuselvanrocky.bootstrap5-vscode",
+    "zignd.html-css-class-completion",
+    "clinyong.vscode-css-modules",
+    "fallenmax.mithril-emmet",
+    "ecmel.vscode-html-css",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig"
+  ]
+}
